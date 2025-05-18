@@ -8,6 +8,7 @@ public class Ex03 {
         System.out.print("Digite o tamanho da primeira lista: ");
         int n1 = sc.nextInt();
         LinkedList<Integer> lista1 = new LinkedList<>();
+        System.out.println("Digite os " + n1 + " elementos da primeira lista:");
         for (int i = 0; i < n1; i++) {
             lista1.add(sc.nextInt());
         }
@@ -15,9 +16,11 @@ public class Ex03 {
         System.out.print("Digite o tamanho da segunda lista: ");
         int n2 = sc.nextInt();
         LinkedList<Integer> lista2 = new LinkedList<>();
+        System.out.println("Digite os " + n2 + " elementos da segunda lista:");
         for (int i = 0; i < n2; i++) {
             lista2.add(sc.nextInt());
         }
+
         
         LinkedList<Integer> resultado = mergeListas(lista1, lista2);
         System.out.println("Lista intercalada e ordenada: " + resultado);

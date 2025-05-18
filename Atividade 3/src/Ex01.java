@@ -7,7 +7,7 @@ public class Ex01 {
         System.out.print("Digite o número de servidores: ");
         int n = sc.nextInt();
         int[] cargas = new int[n];
-        System.out.println("Digite as cargas dos servidores:");
+        System.out.println("Digite as " +n+" cargas dos servidores:");
         for (int i = 0; i < n; i++) {
             cargas[i] = sc.nextInt();
         }
